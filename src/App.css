@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #23252C;
+    color:white;
+    font-family: "roboto", sans-serif;
+
+}
+* a:visited{
+    color:white;
+
+}
+.business-card{
+    /* border:1px solid white */
+    width:300px;
+    background-color:#1A1B21;
+    margin:20px auto;
+
+
+}
+.image{
+    width:100%;
+}
+.dp{
+    width:100%;
+    border-radius:5px;
+
+}
+
+.sec-info{
+    text-align:center;
+}
+
+.sec-info > h4{
+    color:chocolate;    
+    margin-top: 0;
+}
+.sec-info > h2{
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+}
+.sec-info h5 .website{
+    text-decoration: none;
+}
+.sec-info h5 .website:visited{
+    color:white;
+
+}
+.buttons{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:0 10px
+}
+.btn{
+    border-radius: 5px;
+}
+
+
+.buttons button{
+    width: 120px;
+    color:black;
+    height: 35px; 
+    padding-left: 20px;
+    border:none;
+}
+
+.ico{
+    /* border:1px solid red; */
+    position:absolute;
+    margin-left:10px;
+    margin-top:10px;
+}
+.Linkedin-btn{
+    background-color:#5E9BE4;
+}
+.fas{
+    color:black;
+}
+
+.sec-about, .sec-interests{
+    /* padding: 10px; */
+    margin:0 20px;
+}
+
+.sec-about p, .sec-interests p{
+    font-size:smaller;
+    color:#DCDCDC;
+}
+.sec-about h3, .sec-interests h3{
+    margin-bottom:0;
+}
+
+.sec-social{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: black;
+    height:50px;
+}
+
+.sec-social a:visited{
+    color:white;
+}
